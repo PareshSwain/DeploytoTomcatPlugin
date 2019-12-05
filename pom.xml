@@ -17,7 +17,7 @@
   </dependencies>
   <build>
     <finalName>WebApp</finalName>
-  </build>
+  <plugins>
 	<plugin>
 		<groupId>org.apache.tomcat.maven</groupId>
 		<artifactId>tomcat7-maven-plugin</artifactId>
@@ -28,4 +28,6 @@
 			<path>/WebApp.war</path>
 		</configuration>
 	</plugin>
+  </plugins>
+  </build>
 </project>
